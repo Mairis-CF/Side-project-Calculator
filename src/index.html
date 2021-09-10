@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <title>Calculator by: Mairis-CF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="page-title">Digital web Calculator</h1>
+    <br>
+    <h3 class="page-text">¡Let's try this simple and useful learning excersice just using VanillaCSS, VanillaJS and
+        HTML5!</h3>
+
+    <div class="container">
+        <!--Here is the display for the operatiions-->
+        <section id="display-area">
+            <div class="currentInput"></div>
+            <div class="answerScreen">0</div>
+        </section>
+        <section class="keypad-btns">
+            <button type="button" class="function-btn" id="clear-screen" value="">c</button>
+            <button type="button" class="function-btn" id="erase-screen" value=""> &#11013;</button>
+
+            <button type="button" class="function-btn" value="/">/</button>
+            <button type="button" class="function-btn" value="%">%</button>
+            <button type="button" class="number-btn" value="7">7</button>
+            <button type="button" class="number-btn" value="8">8</button>
+            <button type="button" class="number-btn" value="9">9</button>
+            <button type="button" class="function-btn" value="*">*</button>
+            <button type="button" class="number-btn" value="4">4</button>
+            <button type="button" class="number-btn" value="5">5</button>
+            <button type="button" class="number-btn" value="6">6</button>
+            <button type="button" class="function-btn" value="-">-</button>
+            <button type="button" class="number-btn" value="1">1</button>
+            <button type="button" class="number-btn" value="2">2</button>
+            <button type="button" class="number-btn" value="3">3</button>
+            <button type="button" class="function-btn" value="+">+</button>
+            <button type="button" class="number-btn" value="00">00</button>
+            <button type="button" class="number-btn" value="0">0</button>
+            <button type="button" class="number-btn" value=".">.</button>
+            <button type="button" class="function-btn" id="evaluate" value="">=</button>
+        </section>
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
