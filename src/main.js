@@ -7,6 +7,13 @@ const evaluateOperations = document.getElementById('evaluate');
 
 let realTimeScreenInput = [];
 
+/*An example of how the eval() function works in this program
+const toEval = ['2', '+', '2'];
+ eval (toEval.join(''));
+output: 4 
+*/
+
+
 //clean the screen where the numbers will be displayed
 
 clearBtn.addEventListener('click', () => {
@@ -37,6 +44,7 @@ buttons.forEach((btn) => {
 
         }
 
+        
         //erase btn being clicked
         if (btn.id.match('erase-screen')) {
             realTimeScreenInput.pop();
@@ -51,7 +59,7 @@ buttons.forEach((btn) => {
             answerScreen.style.color = "white";
         }
 
-        //handle the undefined error in screen
+        //handle the undefined errors in screen
         if (typeof eval(realTimeScreenInput.join('')) == 'undefined') {
             answerScreen.innerHTML = 0
         }
