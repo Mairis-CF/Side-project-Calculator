@@ -2,13 +2,13 @@
 
 This is a simple digital calculator using VanillaJS, VanillaCSS and HTML5
 
-### Visualization
-![the final output](https://i.imgur.com/5sNlgr0.gif)
+## Visualization
+![the final output](https://github.com/Mairis-CF/Side-project-Calculator/blob/main/concept/calculator.gif?raw=true)
 
 
 ---
 
-### This is what you can practice with this simple app
+## This is what you can practice with this simple app
 
 The topics you can put on practice with this excersice are:
 
@@ -19,13 +19,13 @@ The topics you can put on practice with this excersice are:
 
 ---
 
-### Previous concepts
+## Previous concepts
 
 Basic knowledge in JavaScript conditionals, arrays methods, DOM manipulation, CSS, HTML and of course the desire to learn something cool will make this project more simple for you. 😉
 
 ---
 
-### App roadmap
+## App roadmap
 
 This is the logic that i implemented in this project, but you always can make it in a different way. 
 
